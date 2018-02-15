@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'static_pages/about'
+
   get 'welcome/index'
   root 'welcome#index'
   resources :transactions
