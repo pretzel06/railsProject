@@ -1,0 +1,298 @@
+[
+   {
+      "city":"Winnipeg , MB",
+      "store":"london-drugs",
+      "result":[
+         {
+            "item_name":"ABC Sweet Soy Sauce",
+            "item_sale_price":"2.99"
+         },
+         {
+            "item_name":"Aroy-D Green Or Red Curry",
+            "item_sale_price":"1.79"
+         },
+         {
+            "item_name":"Haday Weijixian Soy Sauce",
+            "item_sale_price":"3.99"
+         },
+         {
+            "item_name":"Ibumie Penang White Curry Or Tastell Organic Noodles",
+            "item_sale_price":"2.99"
+         },
+         {
+            "item_name":"Indomie Mi Goreng Noodle",
+            "item_sale_price":"1.88"
+         },
+         {
+            "item_name":"Indomie Mi Goreng Noodles Case",
+            "item_sale_price":"8.88"
+         },
+         {
+            "item_name":"Lee Kum Kee Soy Sauce, Lee Kum Kee Hoisin Sauce Or Bon Go Jang Katsuo Udon",
+            "item_sale_price":"2.79"
+         },
+         {
+            "item_name":"Mama Instant Noodle Case",
+            "item_sale_price":"8.99"
+         },
+         {
+            "item_name":"Mama Instant Noodles",
+            "item_sale_price":"0.39"
+         },
+         {
+            "item_name":"Paldo Namja Ramen",
+            "item_sale_price":"4.99"
+         },
+         {
+            "item_name":"Paldo Noodle Bowls",
+            "item_sale_price":"0.99"
+         },
+         {
+            "item_name":"Peacock Rice Noodles",
+            "item_sale_price":"2.29"
+         },
+         {
+            "item_name":"Prima Taste Laksa La Mian Or Tasty Bite Cuisine Or Noodles",
+            "item_sale_price":"2.79"
+         },
+         {
+            "item_name":"Vimal Ready-To-Eat Meals",
+            "item_sale_price":"1.88"
+         },
+         {
+            "item_name":"Brooke Bond Red Label Tea",
+            "item_sale_price":"6.99"
+         },
+         {
+            "item_name":"Dan-D-pak Cashews Or Mixed Nuts",
+            "item_sale_price":"10.99"
+         },
+         {
+            "item_name":"Dan-D-pak Wasabi Peas Or Dan-D-pak Rice Crackers",
+            "item_sale_price":"3.99"
+         },
+         {
+            "item_name":"Elements Coconut Water",
+            "item_sale_price":"2.29"
+         },
+         {
+            "item_name":"Farmer Brand Roasted Peanuts",
+            "item_sale_price":"4.99"
+         },
+         {
+            "item_name":"Glico Pocky Snacks Or Nestle Fruitips Candy",
+            "item_sale_price":"3.99"
+         },
+         {
+            "item_name":"Golden Yuan Fortune Cookies",
+            "item_sale_price":"2.99"
+         },
+         {
+            "item_name":"Guru Lucky Snacks",
+            "item_sale_price":"2.79"
+         },
+         {
+            "item_name":"Kirin Milk Tea Or Nescafe Specialty Coffee",
+            "item_sale_price":"3.99"
+         },
+         {
+            "item_name":"Jack'n Jill Piattos Cheese",
+            "item_sale_price":"1.99"
+         },
+         {
+            "item_name":"OKF Aloe Drink Or CafeRite Coffee Mix",
+            "item_sale_price":"1.99"
+         },
+         {
+            "item_name":"Ribena Blackcurrant Nectar",
+            "item_sale_price":"7.88"
+         },
+         {
+            "item_name":"Royal Dansk Butter Cookies",
+            "item_sale_price":"3.79"
+         },
+         {
+            "item_name":"Celebrations Chocolate Bar Bottle Or Lindt Lindor Or Ghirardelli Chocolate Bag Or Lindt Bar",
+            "item_sale_price":"5.88"
+         },
+         {
+            "item_name":"Double Decker Corntos",
+            "item_sale_price":"2.99"
+         },
+         {
+            "item_name":"H&H Thai Dried Fruit",
+            "item_sale_price":"3.88"
+         },
+         {
+            "item_name":"Paldo Crab Or Shrimp Snacks Or Nongshim Honey Twist Snack/Onion Ring",
+            "item_sale_price":"0.99"
+         },
+         {
+            "item_name":"Koh-Kae Coated Peanuts",
+            "item_sale_price":"2.69"
+         },
+         {
+            "item_name":"Merci Chocolates Or Golden Bonbon Almond Nougat",
+            "item_sale_price":"8.88"
+         },
+         {
+            "item_name":"Six Fortune Lobster Chips",
+            "item_sale_price":"2.79"
+         },
+         {
+            "item_name":"Tong Garden Snacks",
+            "item_sale_price":"3.99"
+         },
+         {
+            "item_name":"Nestle Kit Kat Green Tea Or Mini Crush Fruit Jelly",
+            "item_sale_price":"4.99"
+         },
+         {
+            "item_name":"L.B. Maple Cream Cookies",
+            "item_sale_price":"3.69"
+         },
+         {
+            "item_name":"Labonte Maple Syrup",
+            "item_sale_price":"6.99"
+         },
+         {
+            "item_name":"Mikei Red Reishi Mushroom",
+            "item_sale_price":"89.99"
+         },
+         {
+            "item_name":"Wedderspoon Organic Manuka Honey Drops",
+            "item_sale_price":"8.99"
+         },
+         {
+            "item_name":"Diamond Instant Or Rice Noodles",
+            "item_sale_price":"1.39"
+         },
+         {
+            "item_name":"Gia Basmati/Jasmine Rice Or Gia Lentil/Chickpea",
+            "item_sale_price":"2.99"
+         },
+         {
+            "item_name":"Glico Curry Sauce",
+            "item_sale_price":"1.69"
+         },
+         {
+            "item_name":"Huy Fong Sambal/Sriracha/Chili Or Real Thai Sriracha Sauce, Lingham's Garlic Hot Sauce",
+            "item_sale_price":"2.99"
+         },
+         {
+            "item_name":"Knorr Liquid Seasoning Or Knorr Chicken Bouillon Powder",
+            "item_sale_price":"2.99"
+         },
+         {
+            "item_name":"Kokuho Rose Rice Or Kam Yen Jan Chinese Sausage",
+            "item_sale_price":"3.99"
+         },
+         {
+            "item_name":"Lady's Choice Tuna Spread",
+            "item_sale_price":"4.69"
+         },
+         {
+            "item_name":"Mamee Monster Noodle Snack",
+            "item_sale_price":"2.99"
+         },
+         {
+            "item_name":"Real Thai Coconut Milk",
+            "item_sale_price":"2.79"
+         },
+         {
+            "item_name":"Royal Umbrella Rice Noodle Or Sungiven Fine Egg Noodles",
+            "item_sale_price":"1.79"
+         },
+         {
+            "item_name":"Tao Kae Noi Seaweed Or Tempura Seaweed",
+            "item_sale_price":"2.69"
+         },
+         {
+            "item_name":"Taste Of India Cooking Sauce",
+            "item_sale_price":"3.29"
+         },
+         {
+            "item_name":"Ferrero Rocher Or Collection",
+            "item_sale_price":"8.99"
+         },
+         {
+            "item_name":"Globe Coconut Milk",
+            "item_sale_price":"0.88"
+         },
+         {
+            "item_name":"Grande Harvest Jasmine Rice",
+            "item_sale_price":"9.99"
+         },
+         {
+            "item_name":"Huy Fong Sriracha Hot Sauce",
+            "item_sale_price":"2.99"
+         },
+         {
+            "item_name":"Khong Guan Rose Biscuits",
+            "item_sale_price":"5.99"
+         },
+         {
+            "item_name":"Mazola Canola Or Corn Oil",
+            "item_sale_price":"6.99"
+         },
+         {
+            "item_name":"Swanson Broth",
+            "item_sale_price":"0.79"
+         }
+      ]
+   },
+   {
+      "city":"Winnipeg , MB",
+      "store":"costco",
+      "result":[
+         {
+            "item_name":"Primolio Grapeseed Oil",
+            "item_sale_price":"3.00"
+         },
+         {
+            "item_name":"Catelli Spaghetti",
+            "item_sale_price":"2.00"
+         },
+         {
+            "item_name":"Fine Choice Mini Chicken Spring Rolls",
+            "item_sale_price":"2.00"
+         },
+         {
+            "item_name":"Gogo Squeez Organic Apple Pouches",
+            "item_sale_price":"3.00"
+         },
+         {
+            "item_name":"Hampton House Dry Garlic Ribs",
+            "item_sale_price":"4.00"
+         },
+         {
+            "item_name":"Pepsi Regular or Diet Cola",
+            "item_sale_price":"2.80"
+         },
+         {
+            "item_name":"Piller's Turkey breast",
+            "item_sale_price":"3.00"
+         },
+         {
+            "item_name":"Pinty's Honey Garlic Chicken Wings",
+            "item_sale_price":"4.00"
+         },
+         {
+            "item_name":"Prego Original Pasta Sauce",
+            "item_sale_price":"2.20"
+         },
+         {
+            "item_name":"Snack Factory Pretzel Crisps",
+            "item_sale_price":"2.00"
+         },
+         {
+            "item_name":"Sun Tropics Coconut Watee",
+            "item_sale_price":"5.00"
+         },
+         {
+            "item_name":"TGI Friday's Potato skins",
+            "item_sale_price":"4.00"
+         }
+      ]
+   }
+]
