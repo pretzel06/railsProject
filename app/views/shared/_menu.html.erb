@@ -1,8 +1,11 @@
-<ul>
-  <li><%= link_to 'Home', root_path %></li>
-  <li><%= link_to 'Customers', customers_path %></li>
-  <li><%= link_to 'Stores', stores_path %></li>
-  <li><%= link_to 'Products', products_path %></li>
-  <li><%= link_to 'Transactions', transactions_path %></li>
-  <li><%= link_to 'About', static_pages_about_path %></li>
-</ul>
+<div class="ui menu">
+  <div class="header item">
+    Rails Project
+  </div>
+    <%= link_to 'Home', root_path, class: 'item' %>
+  <%= link_to 'Customers', customers_path, class: 'item'%>
+  <%= link_to 'Stores', stores_path, class: 'item'%>
+  <%= link_to 'Products', products_path, class: 'item'%>
+  <%= link_to 'Transactions', transactions_path, class: 'item'%>
+  <%= link_to 'About The Project', static_pages_about_path, class: 'right item'%>
+</div>
