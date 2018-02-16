@@ -1,6 +1,6 @@
-<%= form_with(model: customer, local: true) do |form| %>
+<%= form_with(model: customer, local: true, class: 'ui form') do |form| %>
   <% if customer.errors.any? %>
-    <div id="error_explanation">
+    <div id="error_explanation" class="ui negative message">
       <h2><%= pluralize(customer.errors.count, "error") %> prohibited this customer from being saved:</h2>
 
       <ul>
@@ -13,15 +13,15 @@
 
   <div class="field">
     <%= form.label :customer_name %>
-    <%= form.text_field :customer_name, id: :customer_customer_name %>
+    <%= form.text_field :customer_name, id: :customer_customer_name, placeholder: 'Customer Name' %>
   </div>
 
   <div class="field">
     <%= form.label :customer_address %>
-    <%= form.text_field :customer_address, id: :customer_customer_address %>
+    <%= form.text_field :customer_address, id: :customer_customer_address, placeholder: 'Customer Address' %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit class: 'ui positive basic button' %>
   </div>
 <% end %>

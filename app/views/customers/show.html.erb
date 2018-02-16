@@ -1,14 +1,22 @@
+<%= render 'shared/menu' %>
+<div class="ui container">
 <p id="notice"><%= notice %></p>
+  <div class="ui center aligned grid">
+    <div class="sixteen wide column">
+      <div class="ui segment">
+        <p>
+          <strong>Customer name:</strong>
+          <%= @customer.customer_name %>
+        </p>
 
-<p>
-  <strong>Customer name:</strong>
-  <%= @customer.customer_name %>
-</p>
+        <p>
+          <strong>Customer address:</strong>
+          <%= @customer.customer_address %>
+        </p>
 
-<p>
-  <strong>Customer address:</strong>
-  <%= @customer.customer_address %>
-</p>
-
-<%= link_to 'Edit', edit_customer_path(@customer) %> |
-<%= link_to 'Back', customers_path %>
+        <%= link_to 'Edit', edit_customer_path(@customer),class: 'ui primary basic button'  %>
+        <%= link_to 'Back', customers_path, class: 'ui secondary basic button' %>
+      </div>
+    </div>
+  </div>
+</div>

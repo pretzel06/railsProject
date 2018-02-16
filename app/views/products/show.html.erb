@@ -2,22 +2,26 @@
 <div class="ui container">
 <p id="notice"><%= notice %></p>
   <div class="ui center aligned grid">
-<p>
-  <strong>Product name:</strong>
-  <%= @product.product_name %>
-</p>
+    <div class="sixteen wide column">
+      <div class="ui segment">
+        <p>
+          <strong>Product name:</strong>
+          <%= @product.product_name %>
+        </p>
 
-<p>
-  <strong>Product quantity:</strong>
-  <%= @product.product_quantity %>
-</p>
+        <p>
+          <strong>Product quantity:</strong>
+          <%= @product.product_quantity %>
+        </p>
 
-<p>
-  <strong>Product price:</strong>
-  $<%= @product.product_price %>
-</p>
+        <p>
+          <strong>Product price:</strong>
+          $<%= @product.product_price %>
+        </p>
 
-<%= link_to 'Edit', edit_product_path(@product),class: 'ui primary basic button' %>
-<%= link_to 'Back', products_path, class: 'ui secondary basic button' %>
-  </div>
+        <%= link_to 'Edit', edit_product_path(@product),class: 'ui primary basic button' %>
+        <%= link_to 'Back', products_path, class: 'ui secondary basic button' %>
+      </div>
+      </div>
+    </div>
 </div>
