@@ -1,5 +1,8 @@
-<h1>New Product</h1>
-
+<%= render 'shared/menu' %>
+<div class="ui container">
+  <h1>New Product</h1>
 <%= render 'form', product: @product %>
+  <br>
+<%= link_to 'Back', products_path, class: 'ui secondary basic button' %>
 
-<%= link_to 'Back', products_path %>
+</div>

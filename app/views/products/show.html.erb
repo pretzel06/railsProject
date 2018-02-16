@@ -1,5 +1,7 @@
+<%= render 'shared/menu' %>
+<div class="ui container">
 <p id="notice"><%= notice %></p>
-
+  <div class="ui center aligned grid">
 <p>
   <strong>Product name:</strong>
   <%= @product.product_name %>
@@ -12,8 +14,10 @@
 
 <p>
   <strong>Product price:</strong>
-  <%= @product.product_price %>
+  $<%= @product.product_price %>
 </p>
 
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>
+<%= link_to 'Edit', edit_product_path(@product),class: 'ui primary basic button' %>
+<%= link_to 'Back', products_path, class: 'ui secondary basic button' %>
+  </div>
+</div>
