@@ -1,8 +1,9 @@
 <div class="ui menu">
   <div class="header item">
     Rails Project
+    <i class="bitcoin icon"></i>
   </div>
-  <%= link_to 'Home', root_path, class: 'item' %>
+  <%= link_to semantic_icon('home') + 'Home', root_path, class: 'item'%>
   <%= link_to 'Customers', customers_path, class: 'item'%>
   <%= link_to 'Stores', stores_path, class: 'item'%>
   <%= link_to 'Products', products_path, class: 'item'%>
