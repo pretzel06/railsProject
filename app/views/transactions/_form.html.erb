@@ -1,6 +1,6 @@
-<%= form_with(model: transaction, local: true) do |form| %>
+<%= form_with(model: transaction, local: true, class: 'ui form') do |form| %>
   <% if transaction.errors.any? %>
-    <div id="error_explanation">
+    <div id="error_explanation" class="ui negative message">
       <h2><%= pluralize(transaction.errors.count, "error") %> prohibited this transaction from being saved:</h2>
 
       <ul>
@@ -13,20 +13,20 @@
 
   <div class="field">
     <%= form.label :name %>
-    <%= form.text_field :name, id: :transaction_name %>
+    <%= form.text_field :name, id: :transaction_name, placeholder: 'Transaction Name' %>
   </div>
 
   <div class="field">
     <%= form.label :quantity %>
-    <%= form.number_field :quantity, id: :transaction_quantity %>
+    <%= form.number_field :quantity, id: :transaction_quantity, placeholder: 'Transaction Quantity' %>
   </div>
 
   <div class="field">
     <%= form.label :total_cost %>
-    <%= form.text_field :total_cost, id: :transaction_total_cost %>
+    <%= form.text_field :total_cost, id: :transaction_total_cost, placeholder: 'Trasaction Total Cost' %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit class: 'ui positive basic button' %>
   </div>
 <% end %>

@@ -1,6 +1,9 @@
+<%= render 'shared/menu' %>
+<div class="ui container">
 <h1>Editing Transaction</h1>
 
 <%= render 'form', transaction: @transaction %>
-
-<%= link_to 'Show', @transaction %> |
-<%= link_to 'Back', transactions_path %>
+<br>
+<%= link_to 'Show', @transaction, class: 'ui positive basic button' %>
+<%= link_to 'Back', transactions_path, class: 'ui secondary basic button'  %>
+</div>

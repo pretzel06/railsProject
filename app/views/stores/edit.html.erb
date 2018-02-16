@@ -1,6 +1,9 @@
+<%= render 'shared/menu' %>
+<div class="ui container">
 <h1>Editing Store</h1>
 
 <%= render 'form', store: @store %>
-
-<%= link_to 'Show', @store %> |
-<%= link_to 'Back', stores_path %>
+<br>
+<%= link_to 'Show', @store, class: 'ui positive basic button' %>
+<%= link_to 'Back', stores_path, class: 'ui secondary basic button' %>
+</div>

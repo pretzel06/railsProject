@@ -1,9 +1,17 @@
+<%= render 'shared/menu' %>
+<div class="ui container">
 <p id="notice"><%= notice %></p>
+  <div class="ui center aligned grid">
+    <div class="sixteen wide column">
+      <div class="ui segment">
+        <p>
+          <strong>Store name:</strong>
+          <%= @store.store_name %>
+        </p>
 
-<p>
-  <strong>Store name:</strong>
-  <%= @store.store_name %>
-</p>
-
-<%= link_to 'Edit', edit_store_path(@store) %> |
-<%= link_to 'Back', stores_path %>
+        <%= link_to 'Edit', edit_store_path(@store),class: 'ui primary basic button' %>
+        <%= link_to 'Back', stores_path, class: 'ui secondary basic button' %>
+      </div>
+    </div>
+  </div>
+</div>
